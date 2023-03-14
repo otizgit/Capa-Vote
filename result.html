@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://kit.fontawesome.com/96a70be8ea.js" crossorigin="anonymous"></script>
+    <script defer src="./app.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>CAPA VOTE</h1>
+        </header>
+
+        <div class="hero">
+            <p class="hero-title">Submit Result</p>
+
+            <div class="form-box">
+                <form action="">
+                    <div class="input-box">
+                        <label for="officer">Polling Unit Officer</label>
+                        <input type="text" id="officer" placeholder="Input Name">
+                    </div>    
+                    <div class="input-box">
+                        <label for="election">Polling Unit Officer</label>
+                        <select id="election">
+                            <option value="Presidential">Presidential</option>
+                            <option value="Senetorial">Senetorial</option>
+                        </select>
+                    </div>    
+                    <div class="input-box">
+                        <label for="state">State</label>
+                        <select id="state">
+                            <option value="Abia">Abia</option>
+                        </select>
+                    </div>    
+                    <div class="input-box">
+                        <label for="polling-unit">State</label>
+                        <select id="polling-unit">
+                            <option value="Abia">01/01/01/035</option>
+                        </select>
+                    </div>    
+                    <div class="input-box">
+                        <label class="file-box" for="picture">
+                            <i class="fa-solid fa-file"></i>
+                            <p>Upload result</p>
+                            <input id="picture" type="file" class="file">
+                        </label>
+                    </div>    
+
+                    <button type="submit">Submit</button>
+                </form>
+
+                <div class="form-img">
+                    <i class="fa-solid fa-clipboard-check"></i>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p class="footer-text">Brought to you by <span>CapaicityBay</span></p>
+            <p class="copyright">All rights reserved &copy; <span class="year"></span></p>
+        </footer>
+    </main>
+</body>
+</html>
